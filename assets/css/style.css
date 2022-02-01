@@ -35,10 +35,6 @@ header {
   position: sticky;
   z-index: 9999;
   top: 0;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
 }
 
 header h1 { 
@@ -49,16 +45,23 @@ header h1 {
 }
 
 header nav {
+  margin-left: 200px;  
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   display: inline-block;
-  margin-left: 200px;  
-}
-
-header ul li {
-  display: inline-block;
-  margin-left: 50px;
 }
 
 header nav a {
@@ -243,65 +246,21 @@ footer h2 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  footer h2 {
-    text-align: center;
-    width: 100%;
+  @media screen and (max-width: 575px) {
+
+    header nav ul li a {
+      text-align: center;
+      width: 100%;
+    }
+   
+  
+    footer h2 {
+      text-align: center;
+      width: 100%;
+    }
   }
 }
 
-@media screen and (max-width: 768px) {
 
-  section {
-    padding: 30px 15px;
-  }
 
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
 
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;  
-  }
-
-}
-
-@media screen and (max-width: 575px) {
-
- .section-title {
-    width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-}
-
-.contact-form {
-  order: 3;
-}
