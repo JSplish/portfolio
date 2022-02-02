@@ -6,7 +6,22 @@ Week 2 challenge
 
 This is a work in progress portfolio that will highlight my work during the Coding Bootcamp at the U of U as well as after in my career.
 
-# Links
+## Links
+
+https://jsplish.github.io/portfolio/
+
+## Screenshot
+
+![image](assets\images\screenshot.png)
+
+## Website made using
+
+* HTML
+* CSS
+
+## Contact Info
+
+jordan.m.edginton@gmail.com
 
 
 
