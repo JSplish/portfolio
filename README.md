@@ -12,7 +12,7 @@ https://jsplish.github.io/portfolio/
 
 ## Screenshot
 
-<img src=./assets/images/screenshot>
+<img src=./assets/images/screenshot.png />
 
 ## Website made using
 
